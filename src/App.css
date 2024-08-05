@@ -1,0 +1,20 @@
+.homeImage{
+    width: 330px;
+    height: 330px;
+}
+
+.homeStack{
+    box-shadow: 20px 20px 20px rgba(0, 0, 0, .2);
+}
+
+@media (max-width: 1250px) {
+    .homeStack{
+    margin-top: 15%;
+    background-color: rgba(0,0,35, 0);
+    box-shadow: none;
+    }
+    .homeImage{
+        width: 300px;
+        height: 300px;
+    }
+}
