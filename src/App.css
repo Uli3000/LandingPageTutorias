@@ -4,14 +4,15 @@
 }
 
 .homeStack{
-    box-shadow: 20px 20px 20px rgba(0, 0, 0, .2);
+    background-color: rgba(71, 138, 245, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0.1);
 }
 
 @media (max-width: 1250px) {
     .homeStack{
     margin-top: 15%;
     background-color: rgba(0,0,35, 0);
-    box-shadow: none;
+    border: none
     }
     .homeImage{
         width: 300px;

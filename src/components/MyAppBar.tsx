@@ -43,7 +43,6 @@ function MyAppBar() {
             variant="h6"
             noWrap
             component="a"
-            href="#app-bar-with-responsive-menu"
             sx={{
               mr: 2,
               display: { xs: 'none', md: 'flex' },
@@ -87,8 +86,8 @@ function MyAppBar() {
               }}
             >
               {pages.map((page) => (
-                <MenuItem key={page} onClick={handleCloseNavMenu}>
-                  <Typography textAlign="center" color="inherit">{page}</Typography>
+                <MenuItem  key={page} onClick={handleCloseNavMenu}>
+                  <Typography textAlign="center" color="inherit" >{page}</Typography>
                 </MenuItem>
               ))}
             </Menu>
@@ -98,7 +97,6 @@ function MyAppBar() {
             variant="h5"
             noWrap
             component="a"
-            href="#app-bar-with-responsive-menu"
             sx={{
               mr: 2,
               display: { xs: 'flex', md: 'none' },

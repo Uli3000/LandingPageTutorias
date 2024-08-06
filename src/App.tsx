@@ -3,6 +3,7 @@ import './App.css'
 import MyAppBar from './components/MyAppBar'
 import TutorCard from './components/TutorCard'
 import { Home } from './components/Home'
+import { AboutUs } from './components/AboutUs'
 
 function App() {
 
@@ -16,6 +17,7 @@ function App() {
         <TutorCard name='Maria Gonzales' subject='Quimica' gender='female' />
         <TutorCard name='Estefania Martinez' subject='Computacion' gender='female' />
       </Stack>
+      <AboutUs />
     </>
   )
 }
