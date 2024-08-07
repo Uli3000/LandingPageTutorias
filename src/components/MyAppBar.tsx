@@ -42,7 +42,8 @@ function MyAppBar() {
           <Typography
             variant="h6"
             noWrap
-            component="a"
+            component='a'
+            href='#Inicio'
             sx={{
               mr: 2,
               display: { xs: 'none', md: 'flex' },
@@ -87,7 +88,7 @@ function MyAppBar() {
             >
               {pages.map((page) => (
                 <MenuItem  key={page} onClick={handleCloseNavMenu}>
-                  <Typography textAlign="center" color="inherit" >{page}</Typography>
+                  <Typography textAlign="center" color="inherit" component='a' href={`#${page}`} sx={{textDecoration: 'none'}}>{page}</Typography>
                 </MenuItem>
               ))}
             </Menu>
@@ -96,7 +97,8 @@ function MyAppBar() {
           <Typography
             variant="h5"
             noWrap
-            component="a"
+            component='a'
+            href='#Inicio'
             sx={{
               mr: 2,
               display: { xs: 'flex', md: 'none' },
@@ -116,6 +118,7 @@ function MyAppBar() {
                 key={page}
                 onClick={handleCloseNavMenu}
                 sx={{ my: 2, color: 'inherit', display: 'block' }}
+                href={`#${page}`}
               >
                 {page}
               </Button>

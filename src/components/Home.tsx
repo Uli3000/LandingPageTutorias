@@ -4,7 +4,7 @@ import { Navigation } from '@mui/icons-material'
 
 export const Home = () => {
   return (
-    <Container sx={{ background: 'linear-gradient(0deg, rgba(25,25,25,1) 0%, rgba(99,111,156,1) 100%)', height: '100vh', display: 'flex', justifyContent: 'space-around', alignItems: 'center', flexWrap: 'wrap' }} maxWidth='xl' >
+    <Container id='Inicio' sx={{ background: 'linear-gradient(0deg, rgba(25,25,25,1) 0%, rgba(99,111,156,1) 100%)', height: '100vh', display: 'flex', justifyContent: 'space-around', alignItems: 'center', flexWrap: 'wrap' }} maxWidth='xl' >
       <Stack className='homeStack' sx={{
         backdropFilter: 'blur(8px)',
         borderRadius: '20px'

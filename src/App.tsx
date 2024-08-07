@@ -4,6 +4,8 @@ import MyAppBar from './components/MyAppBar'
 import TutorCard from './components/TutorCard'
 import { Home } from './components/Home'
 import { AboutUs } from './components/AboutUs'
+import { ImageCarousel } from './components/ImageCarousel'
+import Footer from './components/Footer'
 
 function App() {
 
@@ -18,6 +20,8 @@ function App() {
         <TutorCard name='Estefania Martinez' subject='Computacion' gender='female' />
       </Stack>
       <AboutUs />
+      <ImageCarousel />
+      <Footer />
     </>
   )
 }
