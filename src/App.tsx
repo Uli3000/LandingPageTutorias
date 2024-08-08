@@ -1,4 +1,4 @@
-import { Box, Stack } from '@mui/material'
+import { Stack } from '@mui/material'
 import './App.css'
 import MyAppBar from './components/MyAppBar'
 import TutorCard from './components/TutorCard'
