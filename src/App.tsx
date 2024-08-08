@@ -1,4 +1,4 @@
-import { Stack } from '@mui/material'
+import { Box, Stack } from '@mui/material'
 import './App.css'
 import MyAppBar from './components/MyAppBar'
 import TutorCard from './components/TutorCard'
@@ -6,6 +6,8 @@ import { Home } from './components/Home'
 import { AboutUs } from './components/AboutUs'
 import { ImageCarousel } from './components/ImageCarousel'
 import Footer from './components/Footer'
+import { ContactForm } from './components/ContactForm'
+import { Map } from './components/Map'
 
 function App() {
 
@@ -21,6 +23,10 @@ function App() {
       </Stack>
       <AboutUs />
       <ImageCarousel />
+      <div className='contactoInfo' style={{display: 'flex', justifyContent: 'center', alignItems: 'center', flexWrap: 'wrap', gap: '2rem', marginBottom: '2rem', marginTop: '2rem'}}>
+      <Map />
+      <ContactForm />
+      </div>
       <Footer />
     </>
   )

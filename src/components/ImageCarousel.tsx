@@ -17,7 +17,7 @@ import '../embla.css'
 const TWEEN_FACTOR_BASE = 0.2
 
 export const ImageCarousel = () => {
-  const [emblaRef, emblaApi] = useEmblaCarousel({ dragFree: false, loop: true }, [Autoplay({delay: 3000})])
+  const [emblaRef, emblaApi] = useEmblaCarousel({ dragFree: false, loop: true }, [Autoplay({delay: 3000, stopOnInteraction: false})])
   const tweenFactor = useRef(0)
   const tweenNodes = useRef<HTMLElement[]>([])
 

@@ -2,8 +2,7 @@ import { Box, Divider, Grid, Typography } from '@mui/material'
 
 export const AboutUs = () => {
     return (
-        
-        <Grid id='Nosotros' container spacing={2} sx={{ marginTop: '2rem', marginBottom: '2rem', background: 'linear-gradient(0deg, rgba(29,37,60,1) 0%, rgba(42,58,99,1) 100%)' }}>
+        <Grid id='Nosotros' container spacing={2} sx={{ marginTop: '2rem', marginBottom: '2rem',paddingBottom: '1rem' , background: 'linear-gradient(0deg, rgba(29,37,60,1) 0%, rgba(42,58,99,1) 100%)' }}>
             <Grid item xs={12} md={6} >
                 <span
                     style={{
